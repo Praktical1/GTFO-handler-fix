@@ -1,0 +1,52 @@
+[[Video Settings]]
+
+[[2 Player]]
+
+  var dict = [
+    '90|        "x": ' + Context.Width + ",",
+    '91|        "y": ' + Context.Height + ",",
+    '93|          "x": 0.962650955,',
+    '94|          "y": 0.270745575,'
+  ];
+
+  var dict = [
+    '103|      "Value": 3',		//Changes to windowed
+    '106|      "Value": 80',		//FOV
+    '115|      "Value": 0',		//SSAO
+    '121|      "Value": false',	//SubsurfaceScattering
+    '124|      "Value": false',	//ContactShadows
+    '130|      "Value": 0',		//ShadowResolution
+    '133|      "Value": 0',		//ShadowQuality
+    '139|      "Value": false',	//PlayerShadows
+    '142|      "Value": 1',		//FogQuality
+    '145|      "Value": 1',		//TextureSize
+    '148|      "Value": 1',		//Antialiasing
+    '151|      "Value": false',	//AnisotropicFiltering
+    '163|      "Value": false'	//BloomEnabled
+  ];
+
+
+[[3-4 Player]]
+
+  var dict = [
+    '90|        "x": ' + Context.Width + ",",
+    '91|        "y": ' + Context.Height + ",",
+    '93|          "x": 0.871575534,',
+    '94|          "y": 0.490261257,'
+  ];
+
+  var dict = [
+    '103|      "Value": 3',		//Changes to windowed
+    '106|      "Value": 70',		//FOV
+    '115|      "Value": 0',		//SSAO
+    '121|      "Value": false',	//SubsurfaceScattering
+    '124|      "Value": false',	//ContactShadows
+    '130|      "Value": 0',		//ShadowResolution
+    '133|      "Value": 0',		//ShadowQuality
+    '139|      "Value": false',	//PlayerShadows
+    '142|      "Value": 0',		//FogQuality
+    '145|      "Value": 0',		//TextureSize
+    '148|      "Value": 0',		//Antialiasing
+    '151|      "Value": false',	//AnisotropicFiltering
+    '163|      "Value": false'	//BloomEnabled
+  ];
